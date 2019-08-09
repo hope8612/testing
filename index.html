@@ -1,12 +1,12 @@
 <html>
 <head>
-	<meta charset="euc-kr">
+	<meta charset="utf-8">
 	<title>Testing</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript">
-		// ¿©±â¼­ºÎÅÍ ±¸ÇöÇÏ±â
-		alert("»ç¿ëÀÚÀÇ Á¤º¸¸¦ Á¶È¸ÇÏ´Ï, ¿øÄ¡¾ÊÀ¸¸é »çÀÌÆ® ²ô¼¼¿ä..");
+		// ì—¬ê¸°ì„œë¶€í„° êµ¬í˜„í•˜ê¸°
+		alert("ì‚¬ìš©ìì˜ ì •ë³´ë¥¼ ì¡°íšŒí•˜ë‹ˆ, ì›ì¹˜ì•Šìœ¼ë©´ ì‚¬ì´íŠ¸ ë„ì„¸ìš”..");
 		$.getJSON('https://ipapi.co/json/', function(data) {
 		  var ressssult = JSON.stringify(data, null, 2);
 		  console.log(ressssult);
@@ -23,14 +23,14 @@
 	</script>
 </head>
 <body>
-	<h2>´ç½ÅÀÇ Á¤º¸</h2>
-	<!-- Á¤º¸ º¸¿©ÁÖ±â -->
+	<h2>ë‹¹ì‹ ì˜ ì •ë³´</h2>
+	<!-- ì •ë³´ ë³´ì—¬ì£¼ê¸° -->
 	<<div><h4>IP&nbsp;:&nbsp;&nbsp; <input type="text" id="yourIP" value="" readonly /></h4></div>
-	<div><h4>±¹°¡&nbsp;:&nbsp;&nbsp;<input type="text" id="yourCity" value="" readonly></h4></div>
+	<div><h4>êµ­ê°€&nbsp;:&nbsp;&nbsp;<input type="text" id="yourCity" value="" readonly></h4></div>
 	<div><h4>Agent&nbsp;:&nbsp;&nbsp;<input type="text" id="yourAgent"  style="width:80%;" value="" readonly></h4></div>
-	<div><h4>À§µµ&nbsp;:&nbsp;&nbsp;<input type="text" id="yourAtitude" value="" readonly></h4></div>
-	<div><h4>°æµµ&nbsp;:&nbsp;&nbsp;<input type="text" id="yourLongitude" value="" readonly></h4></div>
-	<div><h4>Åë½Å»ç&nbsp;:&nbsp;&nbsp;<input type="text" id="yourOrg" value="" readonly></h4></div>
+	<div><h4>ìœ„ë„&nbsp;:&nbsp;&nbsp;<input type="text" id="yourAtitude" value="" readonly></h4></div>
+	<div><h4>ê²½ë„&nbsp;:&nbsp;&nbsp;<input type="text" id="yourLongitude" value="" readonly></h4></div>
+	<div><h4>í†µì‹ ì‚¬&nbsp;:&nbsp;&nbsp;<input type="text" id="yourOrg" value="" readonly></h4></div>
 
 	<div> &nbsp;</div>
 
